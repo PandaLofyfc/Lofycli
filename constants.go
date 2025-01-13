@@ -11,10 +11,10 @@ import (
 	"image/color"
 )
 
-const ReleaseUrl = "https://api.github.com/repos/Lofycord/Lofycord/releases/latest"
+const ReleaseUrl = "https://api.github.com/repos/PandaLofyfc/Lofycli/releases/latest"
 const InstallerReleaseUrl = "https://api.github.com/repos/PandaLofyfc/Lofycli/releases/latest"
 
-var UserAgent = "Lofycli/" + buildinfo.InstallerGitHash + " (https://github.com/Lofycord/Lofycli)"
+var UserAgent = "Lofycli/" + buildinfo.InstallerGitHash + " (https://github.com/PandaLofyFc/Lofycli)"
 
 var (
 	DiscordGreen  = color.RGBA{R: 0x2D, G: 0x7C, B: 0x46, A: 0xFF}

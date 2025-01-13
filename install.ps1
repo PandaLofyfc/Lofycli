@@ -1,6 +1,6 @@
-$link = "https://github.com/PandaLofyfc/Lofycli/releases/latest/download/LofycliCli.exe"
+$link = "https://github.com/PandaLofyfc/Lofycli/releases/latest/download/lofycli.exe"
 
-$outfile = "$env:TEMP\LofycliCli.exe"
+$outfile = "$env:TEMP\lofycli.exe"
 
 Write-Output "Downloading installer to $outfile"
 

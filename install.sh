@@ -13,7 +13,7 @@ echo "Downloading Installer..."
 
 set -- "XDG_CONFIG_HOME=$XDG_CONFIG_HOME"
 
-curl -sS https://github.com/PandaLofyfc/Lofycli/releases/latest/download/LofycliCli-Linux \
+curl -sS https://github.com/PandaLofyfc/Lofycli/releases/latest/download/lofycli-Linux \
   --output "$outfile" \
   --location
 

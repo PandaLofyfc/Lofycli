@@ -49,12 +49,12 @@ func GetInstallerDownloadLink() string {
 	const BaseUrl = "https://github.com/PandaLofyfc/Lofycli/releases/latest/download/"
 	switch runtime.GOOS {
 	case "windows":
-		filename := Ternary(buildinfo.UiType == buildinfo.UiTypeCli, "LofycliCli.exe", "Lofycli.exe")
+		filename := Ternary(buildinfo.UiType == buildinfo.UiTypeCli, "lofycli.exe", "Lofycli.exe")
 		return BaseUrl + filename
 	case "darwin":
 		return BaseUrl + "Lofycli.MacOS.zip"
 	case "linux":
-		return BaseUrl + "LofycliCli-linux"
+		return BaseUrl + "lofycli-linux"
 	default:
 		return ""
 	}
